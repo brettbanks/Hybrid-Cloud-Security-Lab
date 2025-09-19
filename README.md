@@ -1,4 +1,4 @@
-# 🔐 Hybrid Cloud Security Lab
+#  Hybrid Cloud Security Lab
 
 A self-built enterprise-style hybrid environment that integrates on-premises infrastructure with AWS cloud workloads.  
 This project demonstrates **Active Directory, DNS, VPN connectivity, centralized logging, SIEM visibility, and security incident response** — simulating challenges faced in real enterprise environments.
@@ -75,7 +75,7 @@ Hybrid-Cloud-Security-Lab/
 
 ---
 
-## 📸 Evidence (Preview)
+##  Evidence (Preview)
 
 - ✅ pfSense WAN/LAN setup  
 - ✅ Windows Server promoted to Domain Controller  
@@ -85,7 +85,7 @@ Hybrid-Cloud-Security-Lab/
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 
 **Brett Banks**  
 - GitHub: [brettbanks](https://github.com/brettbanks)  
