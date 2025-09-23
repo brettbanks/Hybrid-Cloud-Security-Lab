@@ -60,18 +60,21 @@ This project demonstrates **Active Directory, DNS, VPN connectivity, centralized
 Hybrid-Cloud-Security-Lab/
 ├── README.md
 ├── docs/
-│ ├── architecture.md # Detailed diagrams & explanations
-│ ├── setup.md # Reproducible setup instructions
-│ ├── issues.md # Troubleshooting notes
-│ ├── evidence.md # Screenshots, proofs of work
-│ └── screenshots/ # Raw screenshot files
+│   ├── architecture.md
+│   ├── setup.md
+│   ├── issues.md
+│   ├── evidence.md
+│   └── screenshots/
 ├── configs/
-│ ├── pfSense/ # pfSense exports
-│ ├── windows/ # AD/DNS configs
-│ ├── ubuntu/ # Netplan, service configs
-│ └── AWS/ # Terraform / CloudFormation scripts
-├── diagrams/ # draw.io, Lucidchart, PNG diagrams
-└── scripts/ # Helper scripts (bash, PowerShell, etc.)
+│   ├── pfSense/
+│   ├── windows/
+│   ├── ubuntu/
+│   └── AWS/
+├── diagrams/
+│   └── README.md
+└── scripts/
+    └── README.md
+
 
 ---
 
