@@ -1,0 +1,65 @@
+# ================================
+# SYSTEM / OS FILES
+# ================================
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+*.bak
+*.swp
+*.lock
+~$
+
+# ================================
+# VIRTUALBOX / VM FILES
+# ================================
+*.vbox
+*.vbox-prev
+*.vdi
+*.vmdk
+*.ova
+*.ovf
+*.log
+
+# ================================
+# TERRAFORM / IaC FILES
+# ================================
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*.tfvars
+*.tfvars.json
+*.backup
+
+# ================================
+# PYTHON / LINUX CONFIGS
+# ================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+venv/
+env/
+.venv/
+*.log
+
+# ================================
+# WINDOWS / MISC
+# ================================
+*.lnk
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# ================================
+# SCREENSHOTS & EXPORTS (OPTIONAL)
+# Keep only finalized images/docs
+# ================================
+/screenshots/raw/
+/docs/archive/
