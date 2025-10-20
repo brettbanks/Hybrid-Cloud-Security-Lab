@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Hybrid Cloud Security Lab
 
 A technical demonstration of a hybrid enterprise environment combining on-prem VirtualBox infrastructure with AWS cloud services.  
@@ -209,5 +209,4 @@ Hybrid-Cloud-Security-Lab/
 - Portfolio: [brettbanks.site](https://brettbanks.site)  
 
 ---
-
->>>>>>> c8b87d8e13b0edb971b3a2d3c5bd4140be4f3bb5
+ c8b87d8e13b0edb971b3a2d3c5bd4140be4f3bb5
