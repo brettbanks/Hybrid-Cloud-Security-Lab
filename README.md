@@ -1,6 +1,6 @@
 # 🛰️ Hybrid Cloud Security Lab
 
-![Hybrid Cloud Architecture](screenshots/005_aws_vpc_configuration.png)
+![Hybrid Cloud Architecture](docs/screenshots/005_aws_vpc_configuration.png)
 
 A complete hybrid enterprise security lab that integrates **on-prem VirtualBox infrastructure** with **AWS cloud networking**.  
 This lab demonstrates secure routing, centralized authentication, intrusion detection, and cloud-native monitoring using pfSense, Active Directory, Zeek/Suricata, and ELK Stack.
@@ -63,11 +63,11 @@ AppServer: 10.0.2.48
 
 | Screenshot | Description |
 |-------------|-------------|
-| ![pfSense Dashboard](screenshots/001_pfsense_dashboard.png) | pfSense firewall dashboard — NAT and LAN routing verification |
-| ![Active Directory Setup](screenshots/002_active_directory_setup.png) | Windows Server AD DS configuration for domain `corp.local` |
-| ![Bastion Connection](screenshots/006_bastion_connection.png) | SSH tunneling from Bastion → AppServer (private subnet) |
-| ![IDS Logs](screenshots/007_ids_suricata_logs.png) | Zeek + Suricata detection logs showing live packet inspection |
-| ![SIEM Dashboard](screenshots/008_siem_elk_dashboard.png) | ELK SIEM dashboard visualizing hybrid log data |
+| ![pfSense Dashboard](docs/screenshots/001_pfsense_dashboard.png) | pfSense firewall dashboard — NAT and LAN routing verification |
+| ![Active Directory Setup](docs/screenshots/002_active_directory_setup.png) | Windows Server AD DS configuration for domain `corp.local` |
+| ![Bastion Connection](docs/screenshots/006_bastion_connection.png) | SSH tunneling from Bastion → AppServer (private subnet) |
+| ![IDS Logs](docs/screenshots/007_ids_suricata_logs.png) | Zeek + Suricata detection logs showing live packet inspection |
+| ![SIEM Dashboard](docs/screenshots/008_siem_elk_dashboard.png) | ELK SIEM dashboard visualizing hybrid log data |
 
 ---
 
@@ -97,7 +97,7 @@ AppServer: 10.0.2.48
 
 - `Hybrid_Cloud_Security_Lab.pdf` — Full write-up  
 - `Hybrid_Cloud_Security_Lab_20.html` — CherryTree export  
-- `/screenshots/` — Visual verification (pfSense, AD, AWS, IDS, SIEM)  
+- `/docs/screenshots/` — Visual verification (pfSense, AD, AWS, IDS, SIEM)  
 - `/docs/` — Diagrams and architecture references  
 - `README.md` — Project overview (public-facing)
 
