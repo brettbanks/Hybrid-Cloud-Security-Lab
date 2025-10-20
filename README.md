@@ -63,6 +63,7 @@ AppServer: 10.0.2.48
 
 | Screenshot | Description |
 |-------------|-------------|
+| ![Active Directory Setup](docs/screenshots/067_VirtualMachines_screenshot.png) | Virtual Machine's used |
 | ![Active Directory Setup](docs/screenshots/002_active_directory_setup.png) | Windows Server AD DS configuration for domain `corp.local` |
 | ![Bastion Connection](docs/screenshots/006_bastion_connection.png) | SSH tunneling from Bastion → AppServer (private subnet) |
 | ![IDS Logs](docs/screenshots/007_ids_suricata_logs.png) | Zeek + Suricata detection logs showing live packet inspection |
@@ -74,11 +75,11 @@ AppServer: 10.0.2.48
 
 | Phase | Description | Status |
 |--------|--------------|--------|
-| 1 | On-Prem Core Setup (pfSense + AD + DHCP/DNS) | ✅ Complete |
-| 2 | Domain Integration (Linux + Windows) | ✅ Complete |
-| 3 | AWS VPC + Bastion + AppServer Deployment | ✅ Complete |
-| 4 | Cloud Logging & GuardDuty Configuration | 🔄 In Progress |
-| 5 | SIEM Integration (Hybrid Correlation) | ⏳ Upcoming |
+| 1 | On-Prem Core Setup (pfSense + AD + DHCP/DNS) |
+| 2 | Domain Integration (Linux + Windows) 
+| 3 | AWS VPC + Bastion + AppServer Deployment 
+| 4 | Cloud Logging & GuardDuty Configuration 
+| 5 | SIEM Integration (Hybrid Correlation) 
 
 ---
 
