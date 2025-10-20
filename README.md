@@ -64,7 +64,7 @@ AppServer: 10.0.2.48
 | Screenshot | Description |
 |-------------|-------------|
 | ![Active Directory Setup](docs/screenshots/067_VirtualMachines_screenshot.png) | Virtual Machine's used |
-| ![Active Directory Setup](docs/screenshots/002_active_directory_setup.png) | Windows Server AD DS configuration for domain `corp.local` |
+| ![Active Directory Setup](docs/screenshots/018_lab_screenshot.png) | Windows Server AD DS configuration for domain `corp.local` |
 | ![Bastion Connection](docs/screenshots/006_bastion_connection.png) | SSH tunneling from Bastion → AppServer (private subnet) |
 | ![IDS Logs](docs/screenshots/007_ids_suricata_logs.png) | Zeek + Suricata detection logs showing live packet inspection |
 | ![SIEM Dashboard](docs/screenshots/008_siem_elk_dashboard.png) | ELK SIEM dashboard visualizing hybrid log data |
