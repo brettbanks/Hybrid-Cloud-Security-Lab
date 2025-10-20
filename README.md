@@ -63,7 +63,6 @@ AppServer: 10.0.2.48
 
 | Screenshot | Description |
 |-------------|-------------|
-| ![pfSense Dashboard](docs/screenshots/001_pfsense_dashboard.png) | pfSense firewall dashboard — NAT and LAN routing verification |
 | ![Active Directory Setup](docs/screenshots/002_active_directory_setup.png) | Windows Server AD DS configuration for domain `corp.local` |
 | ![Bastion Connection](docs/screenshots/006_bastion_connection.png) | SSH tunneling from Bastion → AppServer (private subnet) |
 | ![IDS Logs](docs/screenshots/007_ids_suricata_logs.png) | Zeek + Suricata detection logs showing live packet inspection |
