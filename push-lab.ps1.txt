@@ -1,0 +1,21 @@
+# push-lab.ps1 — Automate README + docs push to GitHub
+
+$timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+
+Write-Host "🔄 Adding new files..." -ForegroundColor Cyan
+git add README.md
+git add docs/* -ErrorAction SilentlyContinue
+git add configs/* -ErrorAction SilentlyContinue
+git add diagrams/* -ErrorAction SilentlyContinue
+git add scripts/* -ErrorAction SilentlyContinue
+
+Write-Host "🧾 Committing changes..." -ForegroundColor Cyan
+git commit -m "Automated push: Hybrid Cloud Security Lab update ($timestamp)"
+
+Write-Host "📥 Pulling latest from remote..." -ForegroundColor Cyan
+git pull origin main --rebase
+
+Write-Host "🚀 Pushing to GitHub..." -ForegroundColor Cyan
+git push origin main
+
+Write-Host "✅ Sync complete! ($timestamp)" -ForegroundColor Green
